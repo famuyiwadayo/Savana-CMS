@@ -1,7 +1,7 @@
 export default {
   name: "propertyDiscount",
   title: "Discount",
-  type: "document",
+  type: "object",
   fields: [
     {
       name: "hasDiscount",
@@ -9,8 +9,18 @@ export default {
       type: "boolean",
     },
     {
+      name: "price",
+      title: "Price",
+      type: "number",
+    },
+    {
       name: "percentage",
       title: "Percentage",
+      type: "number",
+    },
+    {
+      name: "initialDeposit",
+      title: "Initial Deposit",
       type: "number",
     },
     {

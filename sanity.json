@@ -4,7 +4,7 @@
     "name": "savana"
   },
   "api": {
-    "projectId": "tj6oqjb9",
+    "projectId": "bvuwa83o",
     "dataset": "production"
   },
   "plugins": [
@@ -18,9 +18,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
